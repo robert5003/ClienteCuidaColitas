@@ -165,7 +165,7 @@ export default function HomeScreen({ navigation }: any) {
     if (parts.length > 1) return `${parts[0]} ${parts[1]}`;
     return '';
   }
-
+  
   // Veterinario
   const vetStats = [
     { label: 'Citas Pendientes', value: 5, color: '#1CEA9B', icon: <Ionicons name="calendar" size={32} color="#fff" /> },
